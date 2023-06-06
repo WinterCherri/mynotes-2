@@ -6,7 +6,7 @@ import 'package:mynotes/views/login_view.dart';
 import 'package:mynotes/views/register_view.dart';
 import 'package:mynotes/views/verify_email_view.dart';
 import 'firebase_options.dart';
-// Video tutorial 13:12:02 hours in
+// Video tutorial 15:29:34 hours in
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
