@@ -7,8 +7,10 @@ import 'crud_exceptions.dart';
 class NotesService {
   Database? _db;
 
-  Future<DatabaseNote> updateNote(
-      {required DatabaseNote note, required String text}) async {
+  Future<DatabaseNote> updateNote({
+    required DatabaseNote note,
+    required String text,
+  }) async {
     final db = _getDatabaseOrThrow();
 
     await getNote(id: note.id);
